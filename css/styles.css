@@ -1,0 +1,222 @@
+:root{
+    --header-linke-color:#2196F3;
+    --title-color:#212121;
+    --hero-text:#757575;
+    --color-fone:#2F303A;
+    --title-color-too:#FFFFFF;
+}
+body{
+    font-family:'Roboto',sans-serif;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+        /* -----------------Header ---------------*/
+
+
+.header-logo,
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-bleack{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.header-list .link.current{
+    color: var(--header-linke-color);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+}
+.header-link:hover,
+.header-link:focus{
+    color:var(--header-linke-color)
+}
+
+.header-mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--header-linke-color)
+}
+
+.header-tel,
+.footer-tel,
+.footer-mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--hero-text)
+}
+                    /* ------------Hero ------------*/                      
+.hero{
+    background-color:var(--color-fone)
+}
+.hero-btm{  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: var(--title-color-too);
+background: var(--header-linke-color);
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--title-color-too)
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-color)
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--hero-text)
+}
+.foto-title,
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+               /* --------------Team----------- */
+.team{
+    background-color:#F5F4FA;  
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color)
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--hero-text)
+}
+
+              /* ---------------footer----------- */
+
+.footer{
+    background-color: #2F303A;
+}
+.logo-white{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.93;
+    letter-spacing: 0.03em;
+    color:var(--title-color-too)
+} 
+.address-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color:var(--title-color-too)
+}
+.footer-mail,
+.footer-tel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+               /* ------------Portfolio------------ */
+
+.menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.menu-btm{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color)
+}
+.menu-btm:hover,
+.menu-btm:focus{
+    color:var(--title-color-too)
+}
+.menu-btm:hover,
+.menu-btm:focus{
+    background: var(--header-linke-color);
+}
+.menu-btm{
+    cursor: pointer;
+}
+.galery-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.galery-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--hero-text);
+}
